@@ -43,7 +43,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>Anecdote</h1>
+      <h1>Anecdote of the day</h1>
       <Display text={anecdotes[selected]} votes={votes[selected]} />
       <Button text="vote" onClick={vote} />
       <Button text="next anecdote" onClick={nextAnecdote} />
